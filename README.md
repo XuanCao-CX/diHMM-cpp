@@ -170,7 +170,12 @@ conda create -y -n dihmm python=2.7
 conda activate dihmm
 ```
 
-Go into the build dir and run
+2. Download diHMM
+```
+git clone https://github.com/XuanCao-CX/diHMM-cpp.git
+```
+
+3. Install
 ```
 cmake ..
 make
