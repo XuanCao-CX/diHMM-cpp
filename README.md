@@ -163,6 +163,13 @@ To see full meta information about each reference epigenome, please visit [here]
 These maps can be freely downloaded from [here](https://www.dropbox.com/sh/85nxvu1hiwhwm9r/AAB0pQFvwD1KRqpwOOHf6A_Xa?dl=0).
 
 ## Installation
+1. Create Conda Environment
+
+```
+conda create -y -n dihmm python=2.7
+conda activate dihmm
+```
+
 Go into the build dir and run
 ```
 cmake ..
